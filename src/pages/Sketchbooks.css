@@ -1,0 +1,6 @@
+.sb-cards {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    gap: 2vw;              /* Add spacing between cards */
+    align-items: center;   /* Center cards horizontally */
+}

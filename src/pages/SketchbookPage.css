@@ -1,0 +1,14 @@
+.sbp-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin: 20px 2vw;
+}
+
+.sbp-content {
+    width: 100vw;         /* Ensures each image takes up the full width of the viewport */
+    height: auto;         /* Maintain aspect ratio */
+    object-fit: cover;    /* Ensures images fill the width, cropping if necessary */
+}

@@ -1,0 +1,28 @@
+.p-cards {
+    display: flex;
+    gap: 2vw;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Remove borders and padding, and make the text and arrow larger */
+select {
+    border: none;               /* Remove the border */
+    background: transparent;    /* Make background transparent */
+    font-size: 1.2rem;          /* Increase the text size */
+    padding: 20px 2vw;         /* Add padding to make the dropdown larger */
+    -webkit-appearance: none;   /* For Safari */
+    -moz-appearance: none;      /* For Firefox */
+    cursor: pointer;           /* Make the cursor a pointer to indicate it's clickable */
+    transition: color 0.2s;
+}
+
+/* Optional: Add some spacing and styling around the select */
+select:focus {
+    outline: none;              /* Remove the default outline when focused */
+}
+
+select:hover {
+    /* color: rgb(210, 210, 210); */
+    font-style: italic;
+}
