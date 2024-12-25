@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Frida-portfolio-2025/static/css/main.3d1c7ac5.css",
-    "main.js": "/Frida-portfolio-2025/static/js/main.708d31be.js",
+    "main.js": "/Frida-portfolio-2025/static/js/main.1162119d.js",
     "static/media/where_have_all_the_flowers_gone_2.jpg": "/Frida-portfolio-2025/static/media/where_have_all_the_flowers_gone_2.cc7df5b46922dbd77445.jpg",
     "static/media/where_have_all_the_flowers_gone_3.jpg": "/Frida-portfolio-2025/static/media/where_have_all_the_flowers_gone_3.291f6c835f1d77065d33.jpg",
     "static/media/where_have_all_the_flowers_gone_4.jpg": "/Frida-portfolio-2025/static/media/where_have_all_the_flowers_gone_4.5b43a48159135da23698.jpg",
     "static/media/where_have_all_the_flowers_gone_1.jpg": "/Frida-portfolio-2025/static/media/where_have_all_the_flowers_gone_1.75469004d799f7eba6aa.jpg",
     "index.html": "/Frida-portfolio-2025/index.html",
     "main.3d1c7ac5.css.map": "/Frida-portfolio-2025/static/css/main.3d1c7ac5.css.map",
-    "main.708d31be.js.map": "/Frida-portfolio-2025/static/js/main.708d31be.js.map"
+    "main.1162119d.js.map": "/Frida-portfolio-2025/static/js/main.1162119d.js.map"
   },
   "entrypoints": [
     "static/css/main.3d1c7ac5.css",
-    "static/js/main.708d31be.js"
+    "static/js/main.1162119d.js"
   ]
 }
