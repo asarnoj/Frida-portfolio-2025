@@ -13,7 +13,7 @@ const App = () => (
             <Link to="/">Frida Meschke</Link>
             <div className='nav-pages'>
                 <Link to="/projects">Projects</Link>
-                <Link to="/sketchbooks">My Sketchbooksen<s/Link>
+                <Link to="/sketchbooks">My Sketchbooks<s/Link>
                 <Link to="/about">About</Link>
                 <a href="mailto:frida@meschke.se">Contact</a>
             </div>
