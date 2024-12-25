@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Sketchbooks from './pages/Sketchbooks';
@@ -13,15 +13,15 @@ const App = () => (
             <Link to="/">Frida Meschke</Link>
             <div className='nav-pages'>
                 <Link to="/projects">Projects</Link>
-                <Link to="/sketchbooks">My Sketchbooks<s/Link>
+                <Link to="/sketchbooks">My Sketchbooks</Link>
                 <Link to="/about">About</Link>
                 <a href="mailto:frida@meschke.se">Contact</a>
             </div>
         </nav>
         <Routes>
-            <Route path="/" element={<Home />} />
+            <Route exact path="/" element={<Home />} />
             <Route path="/projects" element={<Projects />} />
-            <Route path="/projects/:id" element={<ProjectPage />} /> {/* Dynamic route for proejct page */}
+            <Route path="/projects/:id" element={<ProjectPage />} /> {/* Dynamic route for project page */}
             <Route path="/sketchbooks" element={<Sketchbooks />} />
             <Route path="/sketchbooks/:id" element={<SketchbookPage />} /> {/* Dynamic route for sketchbook page */}
             <Route path="/about" element={<About />} />
